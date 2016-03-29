@@ -3,18 +3,90 @@ K3
 13
 cModel Technology
 dS:\HandsON\EDA
+Ealu
+Z0 w1459286566
+Z1 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dS:\Barbieee\Processor\VHDL
+Z4 8S:/Barbieee/Processor/VHDL/alu.vhd
+Z5 FS:/Barbieee/Processor/VHDL/alu.vhd
+l0
+L5
+VCOHe_[Be=IO`QhZh:5DnQ1
+!s100 J@DC>Xd4?CQ3;HL9g>X2Q3
+Z6 OV;C;6.5b;42
+32
+Z7 o-work work -2002 -explicit -O0
+Z8 tExplicit 1
+Abehav
+R1
+R2
+Z9 DEx4 work 3 alu 0 22 COHe_[Be=IO`QhZh:5DnQ1
+l18
+L16
+V`eOJXW<Nj]MCR1L0KjQjl1
+!s100 gzX^3n29X[dVd5[F:JLnR2
+R6
+32
+Z10 Mx2 4 ieee 14 std_logic_1164
+Z11 Mx1 4 ieee 11 numeric_std
+R7
+R8
+Einsdec
+Z12 w1459284141
+R1
+R2
+R3
+Z13 8S:/Barbieee/Processor/VHDL/instdec.vhd
+Z14 FS:/Barbieee/Processor/VHDL/instdec.vhd
+l0
+L5
+VzI:a]ZQ;8Fk^kFllG7nOU2
+R6
+32
+R7
+R8
+!s100 SUAbdV0O^Wma[cN]PQa^Z1
+Abehav
+R1
+R2
+DEx4 work 6 insdec 0 22 zI:a]ZQ;8Fk^kFllG7nOU2
+l22
+L18
+VbGLEme@Ao`M=^^f448Wzk3
+R6
+32
+R10
+R11
+R7
+R8
+!s100 @6<CmM0PX>O7lPCZ:TP]E3
 Eregf
-w1459281510
-DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
-Z0 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-dS:\Barbieee\Processor\VHDL
-8S:/Barbieee/Processor/VHDL/registerfile.vhd
-FS:/Barbieee/Processor/VHDL/registerfile.vhd
+Z15 w1459282509
+R1
+R2
+R3
+Z16 8S:/Barbieee/Processor/VHDL/registerfile.vhd
+Z17 FS:/Barbieee/Processor/VHDL/registerfile.vhd
 l0
 L5
 Vng]]64:dgkoXVFH_:gEh_0
-!s100 kgOIhB^=CHEAYcAOdNZ`m0
-Z1 OV;C;6.5b;42
+R6
 32
-o-work work -2002 -explicit -O0
-Z2 tExplicit 1
+R7
+R8
+!s100 kgOIhB^=CHEAYcAOdNZ`m0
+Abehav
+R1
+R2
+DEx4 work 4 regf 0 22 ng]]64:dgkoXVFH_:gEh_0
+l17
+L14
+VTnb1^g5?X?3NfS8_NzQkk2
+R6
+32
+R10
+R11
+R7
+R8
+!s100 5kMY^<1YYX1zYCa5l7;?J3

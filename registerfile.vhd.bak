@@ -7,7 +7,7 @@ entity regf is
         i_clk,i_en,i_we: in std_logic;
         ira_en,irb_en,ird_en: in std_logic_vector(1 downto 0);
         ora_d,orb_d: out std_logic_vector(7 downto 0);
-        ird_d: in std_logic_vector(7 downto 0);
+        ird_d: in std_logic_vector(7 downto 0)
       );
 end entity;
 
@@ -21,7 +21,6 @@ begin
         ora_d<=regs(to_integer(unsigned(ira_en)));
         orb_d<=regs(to_integer(unsigned(irb_en)));
         if(i_we='1') then
-          if(ird_f='0') then
             regs(to_integer(unsigned(ird_en)))<=ird_d;
         end if;
       end if;
