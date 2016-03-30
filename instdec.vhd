@@ -13,6 +13,7 @@ entity insdec is
         ord_d : out  STD_LOGIC_VECTOR (7 downto 0);
         ord_f : out STD_LOGIC;
         o_we : out  STD_LOGIC;
+        o_mux : out bit;
         aluo : out  STD_LOGIC_VECTOR (1 downto 0)
       );
 end entity;
@@ -45,6 +46,11 @@ begin
             ord_d(7 downto 4)<=i_inst(3 downto 0);
             ord_d(3 downto 0)<=B"0000";
           end if;
+        end if;
+        if((i_inst(7 downto 6)) = B"11") then
+          o_mux<='1';
+        else 
+          o_mux<='0';
         end if;
       end if;
     end process;

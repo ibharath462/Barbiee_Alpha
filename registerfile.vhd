@@ -18,12 +18,16 @@ begin
   process(i_clk)
     begin
       if(rising_edge(i_clk) and i_en='1') then
-        ora_d<=regs(to_integer(unsigned(ira_en)));
-        orb_d<=regs(to_integer(unsigned(irb_en)));
+        if(ira_en/="UU") then
+          ora_d<=regs(to_integer(unsigned(ira_en)));
+        end if;
+        if(irb_en/="UU") then
+          orb_d<=regs(to_integer(unsigned(irb_en)));
+        end if;
         if(i_we='1') then
-          if(ird_f='1') then
+          if(ird_f='1' and ird_en/="UU") then
             regs(to_integer(unsigned(ird_en)))<=ird_d;
-          else
+          elsif(ird_f='0' and ird_en/="UU") then
             regs(to_integer(unsigned(ird_en)))<=regs(to_integer(unsigned(ird_en))) or ird_d;
          end if;
        end if;
